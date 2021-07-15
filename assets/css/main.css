@@ -703,6 +703,15 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+		
+		@media screen and (max-width: 2000px) {
+			
+			.image.main {
+				margin: 2rem 8.75rem;
+				width: 50%;
+			}
+
+		}
 
 		@media screen and (max-width: 736px) {
 
@@ -716,6 +725,7 @@ input, select, textarea {
 
 			.image.main {
 				margin: 1.5rem 0;
+				width: 100%;
 			}
 
 		}
